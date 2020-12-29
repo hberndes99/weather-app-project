@@ -1,0 +1,137 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.border {
+  border: 5px rgb(100, 106, 112) solid;
+  border-radius: 10px;
+  background-color: rgba(244, 246, 255, 0.3);
+  padding: 20px;
+  margin: 30px;
+}
+
+form {
+  display: block;
+  text-align: center;
+  margin: 100px auto 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 200;
+  float: left;
+}
+
+hr {
+  max-width: 600px;
+}
+
+.form-group {
+  margin-right: 10px;
+  max-width: 250px;
+}
+
+.form-inline {
+  justify-content: center;
+}
+
+button.searchButton {
+  background-color: #787d83;
+  border: none;
+  border-radius: 5px;
+  height: calc(1.5em + 0.7rem);
+}
+
+button.currentLocation {
+  margin: 15px auto;
+}
+
+.phrase {
+  display: inline;
+}
+
+.nameOfDay {
+  display: inline;
+}
+
+.currentTime {
+  display: inline;
+}
+
+.dayAndTime {
+  text-align: center;
+}
+
+.shortDescription {
+  display: block;
+  text-align: center;
+}
+
+.currentTempPanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconify {
+  color: rgb(92, 95, 96);
+  font-size: 25px;
+}
+
+.currentTemp {
+  position: relative;
+  right: 10px;
+}
+
+.mainImage .iconify {
+  color: rgba(92, 95, 96, 0.7);
+  font-size: 50px;
+  position: relative;
+  left: 10px;
+}
+
+.weatherSpecifics {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.weatherIcon {
+  margin: 8px 0;
+}
+
+.iconify.rainyIcon {
+  color: rgb(174, 230, 230);
+}
+
+.iconify.cloudyIcon {
+  color: rgb(174, 230, 230);
+}
+
+.iconify.sunCloudIcon {
+  color: rgb(247, 201, 74);
+}
+
+.iconify.sunnyIcon {
+  color: rgb(247, 201, 74);
+}
+
+.iconify.windyIcon {
+  color: rgb(174, 230, 230);
+}
+
+.futureWeatherPanel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.iconify.searchIcon {
+  font-size: 22px;
+}
